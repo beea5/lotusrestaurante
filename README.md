@@ -1,6 +1,6 @@
 # Backend Lotus 
 
-Este repositório consiste no desenvolvimento do backend para o sistema de reservas de mesas do Lotus Restaurante. Utilizando tecnologias como Java, Spring Boot e Maven, o backend gerencia a criação e atualização de reservas.
+Este repositório abrange o desenvolvimento do backend para o sistema de reservas de mesas do Lotus Restaurante. Por meio da implementação de tecnologias avançadas como Java, Spring Boot e Maven, o backend assume a responsabilidade de gerenciar a criação e atualização de reservas. Além disso, para a persistência dos dados, optamos pelo banco de dados H2, proporcionando uma solução local eficiente.
 
 ## Tecnologias
 
@@ -8,7 +8,7 @@ Este repositório consiste no desenvolvimento do backend para o sistema de reser
 - Spring Boot
 - Thymeleaf (para renderização de views, se aplicável)
 - Maven
-- Banco de dados (não especificado)
+- Banco de dados H2
 ## Configuração do Ambiente
 
 Descreva os passos para configurar o ambiente de desenvolvimento.
@@ -17,11 +17,5 @@ Descreva os passos para configurar o ambiente de desenvolvimento.
 2. Configure as variáveis de ambiente.
 3. Instale o Spring Boot.
 
-
-## Instalação
-
-
-```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
-mvn install
+## Front-end 
+O front-end do projeto pode ser conferido aqui [Lotus](https://github.com/beea5/trabalho_html).
